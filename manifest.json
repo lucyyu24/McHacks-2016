@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Immitate.me",
+  "version": "1.0",
+  "description": "An extension to let you buy clothing in pictures",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.ca/*"],
+      "js": ["jquery.js", "program.js", "shortcut.js"]
+    }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ]
+}
