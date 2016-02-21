@@ -4,8 +4,12 @@
   "description": "",
   "main": "imitate.js",
   "dependencies": {
+    "async": "^1.5.2",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
     "request": "^2.69.0",
-    "restify": "^4.0.4"
+    "restify": "^4.0.4",
+    "unirest": "^0.4.2"
   },
   "devDependencies": {},
   "scripts": {
