@@ -1,0 +1,24 @@
+{
+  "name": "mchacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imitate.js",
+  "dependencies": {
+    "request": "^2.69.0",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucyyu24/McHacks-2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucyyu24/McHacks-2016/issues"
+  },
+  "homepage": "https://github.com/lucyyu24/McHacks-2016#readme"
+}
